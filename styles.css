@@ -22,8 +22,14 @@ li > *, .hero-secondary-text{
 }
 
 button{
+    border:solid;
+    border-radius: 10px;
+    font-size:18px;
+    padding:10px;
+    border-color: transparent;
+    margin:auto;
     background-color: #3882f6;
-    color:white;
+    color:#e5e7eb;
 }
 
 .information > h1{
@@ -101,6 +107,49 @@ body > *{
     text-align: center;
 }
 
+.quote{
+    background-color:#e5e7eb;
+}
+
+blockquote{
+    display:flex;
+    flex-direction: column;
+}
+
+.quote-text{
+    font-style:italic;
+    font-size:36px;
+    color:#1f2937;
+    font-weight: 300;
+    margin-bottom: -10px;
+}
+
+.quote-author{
+    align-self: flex-end;
+    padding-bottom: 30px;
+}
+
+.call-box{
+    border-radius: 10px;
+    background-color:#3882f6;
+    padding:20px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.call-message
+{
+    color:#e5e7eb;
+}
+
+.call-message h1{
+    margin-bottom:-10px;
+}
+.call-box button{
+    border-color:#e5e7eb;
+}
+
 ul{
     display: flex;
     list-style: none;
@@ -111,3 +160,8 @@ li > * {
     text-decoration: none;
 }
 
+.footer{
+    padding:30px;
+    text-align: center;
+    color:#e5e7eb;
+}
